@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "documentaries",
+  "info": {
+    "singularName": "documentary",
+    "pluralName": "documentaries",
+    "displayName": "Documentary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "isFeatured": {
+      "type": "boolean"
+    }
+  }
+}
